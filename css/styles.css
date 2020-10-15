@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-custom {
-    background-color: #1B2B65 !important;
+    background-color: #1B2B65;
 }
 
 .navbar-custom .navbar-brand,
@@ -75,7 +75,7 @@ body {
     top: 75%;
     margin-left: auto;
     margin-right: auto;
-    background: rgba(12, 11, 95, 0.8);
+    background: rgba(163, 31, 52, 0.8);
     border-radius: 5px;
     text-align: center;
     padding-top: 5vh;
@@ -304,7 +304,7 @@ h3 .btn-group { display: inline-block; }
 }
 
 .p-name {
-    color: white;
+  color: white;
 }
 
 .p-des {
