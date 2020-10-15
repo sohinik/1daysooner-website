@@ -1,14 +1,20 @@
+@font-face {
+  font-family: lexend;
+  src: url(../Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
 body {
     min-width: 900px;
 }
 
 .navbar-custom {
     background-color: #1B2B65;
+    font-family: lexend;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: #FFFFFF !important;
+    color: #FFD600 !important;
     font-size: 25px !important;
 }
 
@@ -165,24 +171,23 @@ body {
     font-size: 4vh;
 }
 
-.redtext {
-    color: #1B2B65;
-    font-size: 4vh;
-}
 
-.maintextred {
-    color: #1B2B65;
-    font-size: 8vh;
+.headerblue {
+  color: #1B2B65;
+  font-size: 6vh;
+  font-family: lexend;
 }
 
 .paragraphtext {
     color: #000;
-    font-size: 3vh;
+    font-size: 2vh;
+    font-family: lexend;
 }
 
 .paragraphtextemph {
     color: #1B2B65;
     font-size: 3vh;
+    font-family: lexend;
 }
 
 h3 .btn-group { display: inline-block; }
@@ -278,9 +283,14 @@ h3 .btn-group { display: inline-block; }
 
 .container {
     width: 80%;
-	height:auto;
+	  height:auto;
     padding:1%;
     overflow:hidden;
+}
+
+.container3 {
+  height:auto;
+  overflow:hidden;
 }
 
 .peoplecontainer {
